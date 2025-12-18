@@ -94,7 +94,7 @@ export default function About({ onClose }: AboutProps) {
                       LinkedIn
                     </a>
                     <a 
-                      href="/DesenvolvedorFullStack.pdf"
+                      href="/DesenvolvedorFullStack01.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
