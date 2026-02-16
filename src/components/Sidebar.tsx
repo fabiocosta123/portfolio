@@ -45,9 +45,18 @@ const projectsData: ProjectsData = {
       id: 4,
       name: "BookShelf - Sistema para Biblioteca",
       image: "/biblioteca.png",
-      description: "Sistema completo para gerenciamento de biblioteca que vai desde consumo de API Google Books até serviço de mensageria. Composto por paginas de Dashboard, Biblioteca, Empréstimos, Usuários, Relatórios, Importar Livros, Configuração...PS: Projeto em Desenvolvimento",
+      description: "Sistema completo para gerenciamento de biblioteca consumindo API do Google, separação de negócios entre administrador e usuário, PS: Em desenvolvimento",
       tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
       deploy: "https://bookshelf-chi-five.vercel.app/",
+      level: "avancado"
+    },
+    {
+      id: 5,
+      name: "PDV - Fluxus System",
+      image: "/pdv-fluxus.png",
+      description: "Frente de caixa com controle de estoque desenvolvido para atender pequeno comerciante que não precisa emitir Danfe ou cupom fiscal.",
+      tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
+      deploy: "https://pdv-fluxus.vercel.app/",
       level: "avancado"
     }
   ]
