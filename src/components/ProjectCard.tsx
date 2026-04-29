@@ -60,7 +60,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           </div>
         </div>
 
-        {/* Image Section - AGORA COM IMAGEM REAL */}
+        {/* Image Section */}
         <div className="h-48 bg-[#2a2d2e] relative overflow-hidden">
           {!imageError ? (
             <Image
