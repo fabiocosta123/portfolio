@@ -60,7 +60,7 @@ const projectsData: ProjectsData = {
       level: "avancado"
     },
     {
-      id: 5,
+      id: 6,
       name: "Ser Mulher - E-commerce & Provador Virtual com IA",
       image: "/sermulher.png",
       description: "O Ser Mulher é uma plataforma de e-commerce de alto padrão voltada para o setor de estética e cosméticos. O projeto foi concebido para oferecer uma experiência de compra premium, unindo um design minimalista e sofisticado a funcionalidades tecnológicas avançadas que elevam a confiança da consumidora durante a jornada de compra.",
