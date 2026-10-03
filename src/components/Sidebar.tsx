@@ -34,7 +34,7 @@ const projectsData: ProjectsData = {
       id: 3,
       name: "PDV - Fluxus System",
       image: "/pdv-fluxus.png",
-      description: "Frente de caixa com controle de estoque desenvolvido para atender pequeno comerciante que não precisa emitir Danfe ou cupom fiscal.",
+      description: "Frente de caixa com controle de estoque desenvolvido para atender pequeno comerciante. Sistema pronto para evoluir para modulo fiscal e integrado com MyCredit para pagamentos via pix. Desenvolvido com Next.js, TypeScript, Tailwind e Prisma.",
       tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
       deploy: "https://pdv-fluxus.vercel.app/",
       level: "intermediario"
@@ -45,7 +45,7 @@ const projectsData: ProjectsData = {
       id: 4,
       name: "Plataforma Educacional",
       image: "/anexa.png",
-      description: "Plataforma educacional para cursos online, com sistema de login, dashboard, upload de vídeos, e-commerce e integração com Stripe para pagamentos.",
+      description: "Plataforma educacional para cursos online, com sistema de login, dashboard, upload de vídeos, e-commerce e integração com MyCredit para pagamentos via pix.",
       tech: ["Next.js", "TypeScript", "Shadcn", "PostgreSQL", ".NET", "Web API", "Railway"],
       deploy: "https://educational-plataform-frontend.vercel.app/",
       level: "avancado"
