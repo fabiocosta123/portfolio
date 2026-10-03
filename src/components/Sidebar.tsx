@@ -32,42 +32,25 @@ const projectsData: ProjectsData = {
   intermediario: [
     {
       id: 3,
-      name: "Dr. Botica - Chat IA",
-      image: "/dr_botica.png",
-      description: "Chat consumindo IA do Google, possível mandar e ouvir audio, imagem, download, upload, copia resposta além do dark mode.",
-      tech: ["React", "Node.js", "API", "jsPDF"],
-      deploy: "https://chat-ia-gamma.vercel.app/",
+      name: "PDV - Fluxus System",
+      image: "/pdv-fluxus.png",
+      description: "Frente de caixa com controle de estoque desenvolvido para atender pequeno comerciante que não precisa emitir Danfe ou cupom fiscal.",
+      tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
+      deploy: "https://pdv-fluxus.vercel.app/",
       level: "intermediario"
     }
   ],
   avancado: [
     {
       id: 4,
-      name: "BookShelf - Sistema para Biblioteca",
-      image: "/biblioteca.png",
-      description: "Sistema completo para gerenciamento de biblioteca consumindo API do Google, separação de negócios entre administrador e usuário, PS: Em desenvolvimento",
-      tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
-      deploy: "https://bookshelf-chi-five.vercel.app/",
+      name: "Plataforma Educacional",
+      image: "/anexa.png",
+      description: "Plataforma educacional para cursos online, com sistema de login, dashboard, upload de vídeos, e-commerce e integração com Stripe para pagamentos.",
+      tech: ["Next.js", "TypeScript", "Shadcn", "PostgreSQL", ".NET", "Web API", "Railway"],
+      deploy: "https://educational-plataform-frontend.vercel.app/",
       level: "avancado"
-    },
-    {
-      id: 5,
-      name: "PDV - Fluxus System",
-      image: "/pdv-fluxus.png",
-      description: "Frente de caixa com controle de estoque desenvolvido para atender pequeno comerciante que não precisa emitir Danfe ou cupom fiscal.",
-      tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
-      deploy: "https://pdv-fluxus.vercel.app/",
-      level: "avancado"
-    },
-    {
-      id: 6,
-      name: "Ser Mulher - E-commerce & Provador Virtual com IA",
-      image: "/sermulher.png",
-      description: "O Ser Mulher é uma plataforma de e-commerce de alto padrão voltada para o setor de estética e cosméticos. O projeto foi concebido para oferecer uma experiência de compra premium, unindo um design minimalista e sofisticado a funcionalidades tecnológicas avançadas que elevam a confiança da consumidora durante a jornada de compra.",
-      tech: ["Next.js", "TypeScript", "Tailwind", "Prisma", "Experiência PWA (Progressive Web App), IA", "UI/UX", "MediaPipe Face Mesh"],
-      deploy: "https://sermulher.vercel.app/",
-      level: "avancado"
-    }
+    }   
+    
   ]
 }
 
